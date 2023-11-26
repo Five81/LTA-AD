@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>LTA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo" ><strong><h2>LTA: Lightweight Android Malware Detection Based on Opcode Timing Relationship</h2></strong></a>
+								
+									
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Introduce</h1>
+											<!-- <p>ZhiLiang Bu, Chunlei Zhao, Liangyi Gong, Yan Wang, Yi Yang and Xi Wang</p> -->
+										</header>
+										<p style="word-break:break-all" >Android applications have emerged as a prime target for hackers.
+											Android malware detection stands as a pivotal technology, crucial for safeguarding network security and thwarting anomalies.
+											However, traditional static analysis makes it difficult to analyze shell applications, while dynamic analysis requires higher system resources.
+											We propose a novel lightweight Android malware deep-learning detection model based on LSTM-TCN-Attention (LTA).
+											This study delves into the Dalvik opcode sequences of Android malware, employing the N-gram algorithm to partition sequences and extract contextual information features conducted using a Genetic Algorithm (GA). 
+											Then, LSTM and TCN  algorithms are employed to capture long-term dependencies and local features, enabling comprehensive comprehension of temporal information within Dalvik opcode sequences. 
+											Additionally, TCN facilitates feature extraction across various time scales, thereby enabling the detection of anomaly patterns across diverse temporal scales within Dalvik opcode sequences. 
+											Moreover, we introduce multi-head attention mechanisms reinforced learning to direct the model's focus toward behavioral cues within malicious software sequences. 
+											Finally, extensive experiment results show that our proposed methodology and model exhibit higher detection accuracy and robustness, achieving an accuracy rate of 98.69% on average, surpassing traditional machine learning methods such as Random Forest, Pseudo-Label Deep Neural Networks.</p>
+										<ul>
+											<li>The picture on the right is the overall workflow diagram.</li>
+										</ul>
+										
+										<!-- <ul class="actions">
+											<li><a href="#" class="button big">Learn More</a></li>
+										</ul> -->
+									</div>
+
+									 <span  class="image object">
+								
+									 	<img style="width: 130%;margin-top: 40%;margin-left: -10%;" src="images/全文整体图.jpg" alt=""  />
+											
+									 	
+										
+								 
+										
+									 </span>
+
+								</section>
+
+							<!-- Section -->
+								<section >
+									<header class="major">
+										<h2 id= "buzhi">
+										Dataset
+										</h2>
+									</header>
+									<div class="features">
+										<article>
+										
+											<svg class="icon" aria-hidden="true">
+  										<use xlink:href="#icon-zhengchang"></use>
+											</svg>
+												
+											
+											<div class="content">
+												<h3>Benign</h3>
+												<p>We collected 1400 benign software on CIC-InvesAndMal2019. The dataset selected covers every category of apps on the market.</p>
+											</div>
+										</article>
+										<article>
+										
+										<svg class="icon" aria-hidden="true">
+  										<use xlink:href="#icon-youfengxian"></use>
+											</svg>
+											
+											<div class="content">
+												<h3>Malware</h3>
+												<p>We collected 1400 benign software on RmvDroid. Contains 56 software samples of Android malware families on Google Play in recent years.</p>
+											</div>
+										</article>
+									</div><strong>
+									<ul>
+										<li><p>If you want to use the dataset, please send an application e-mail to 550001jy@gmail.com</p></li>
+										<!-- <li><p>Please cite this study when using the data.</p></li> --></strong>
+									</ul>
+									
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2 id= "buzhi1">Relevant Codes</h2>
+									</header>
+									<div class="posts">
+
+										
+
+										<article>
+										<ul>
+											<li><strong><p>We publish the code used in this detection method. Includes LTA model, static analysis code. </p></strong></li>
+											<li><strong><p>The right graph is the architecture of the Stacking model used in our detection method.</p></strong></li>
+										</ul>
+										
+										<ul class="actions">
+												<li><a href="https://github.com/Five81/LTA.git" target="_blank" class="button">Get</a></li>
+											</ul>
+										</article>
+										<article>
+											<a  class="image"><img src="images/LTA Model.jpg"/></a>
+										</article>
+										
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+							<p><br\><br\></p>
+
+							<!-- Search -->
+								<!-- <section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section> -->
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="#buzhi" >Dataset</a></li>
+										<li><a href="#buzhi1">Relevant Codes</a></li>
+										<li>
+											<!-- <span class="opener">Features</span> -->
+											<!-- <ul>
+												<li><a href="API.html">API Set</a></li>
+												<li><a href="Permission.html">Permission Set</a></li> -->
+												
+											</ul>
+										</li> 
+
+										
+									</ul>
+								</nav>
+
+						
+								<section>
+									<header class="major">
+										<h2>Contact</h2>
+									</header>
+									<!-- <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p> -->
+									<ul class="contact">
+
+										<li class="icon solid fa-envelope"><a href="#">
+										550001jy@gmail.com
+										<br/>
+										<br/>
+										moxiuliang@163.com
+										<br/><br/>gongliangyi@gmail.com
+										</a>
+										</li>
+
+										
+									
+									</ul>
+								</section>
+
+							
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="./iconfont.js"></script>
+
+
+
+	</body>
+</html>
